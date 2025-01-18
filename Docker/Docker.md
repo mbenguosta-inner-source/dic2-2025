@@ -4,7 +4,7 @@
 
 ## Initialize and Run docker locally
 ```sh
-docker init
+docker init  #only in docker desktop
 docker start
 docker stop
 ```
