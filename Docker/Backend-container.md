@@ -1,5 +1,4 @@
-# Lab execution commands
-
+# MongoDB & Mongo Express deployment
 
 ### Build image
 
