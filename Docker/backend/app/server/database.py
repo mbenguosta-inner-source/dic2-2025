@@ -1,8 +1,8 @@
 import motor.motor_asyncio
 from bson.objectid import ObjectId
 import os
-#MONGO_DETAILS = "mongodb://{db_user}:{db_pwd}@{db_host}:{db_port}/".format(db_user=os.environ["DATABASE_USER"], db_pwd=os.environ["DATABASE_PASSWORD"], db_host=os.environ["DATABASE_HOST"], db_port=os.environ["DATABASE_PORT"])
-client = motor.motor_asyncio.AsyncIOMotorClient(os.environ["MONGO_URI"])
+MONGO_DETAILS = "mongodb://{db_user}:{db_pwd}@{db_host}:{db_port}/".format(db_user=os.environ["DATABASE_USER"], db_pwd=os.environ["DATABASE_PASSWORD"], db_host=os.environ["DATABASE_HOST"], db_port=os.environ["DATABASE_PORT"])
+client = motor.motor_asyncio.AsyncIOMotorClient(MONGO_DETAILS)
 database = client.employees
 employee_collection = database.get_collection("employees_collection")
 

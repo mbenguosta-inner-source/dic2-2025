@@ -19,13 +19,13 @@ docker run -d  -p 27017:27017 --name database \
 ```
 
 ```sh
-docker run -d -p8200:8000 --name mouhagueye01 \
+docker run -d -p8200:8000 --name [CONTAINER NAME] \
 --network my-net \
 -e DATABASE_HOST=database \
 -e DATABASE_PORT=27017 \
 -e DATABASE_USER=user \
 -e DATABASE_PASSWORD=passer  \
-mouhagueye01/backend:v2.0.0
+[DOCKER ID]/IMAGE NAME:VERSION
 ```
 
 ```sh
