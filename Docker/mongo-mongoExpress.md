@@ -30,4 +30,4 @@ docker run -d \
   mongo-express:latest
 ```
 Connect to your mongo express UI with [http://localhost:8081/](http://localhost:8081)
-If a ussr and password is reqired to connect to mongo-express set <b>admin</b> and <b>pass</b>
+If a user and password is required to connect to mongo-express set <b>admin</b> and <b>pass</b>
