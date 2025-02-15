@@ -30,7 +30,6 @@ kubectl get pods -o jsonpath='{.items[*].spec.nodeName}'
 kubectl get service nginx-service -o jsonpath='{.spec.ports[0].nodePort}'
 
 
-
 kubectl create secret generic my-secret --from-literal=username=user --from-literal=password=password
 kubectl get secret my-secret -o yaml
 kubectl delete secret my-secret

@@ -22,7 +22,6 @@ spec:
         - name: db-data
           mountPath: "/var/lib/mysql"
           
-
       volumes:
       - name: db-data
         persistentVolumeClaim:
