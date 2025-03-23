@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"mybucket","Source":"./modules/bucket","Dir":"modules/bucket"},{"Key":"ubuntuvm","Source":"./modules/vm","Dir":"modules/vm"},{"Key":"ubuntuvm2","Source":"./modules/vm","Dir":"modules/vm"}]}
